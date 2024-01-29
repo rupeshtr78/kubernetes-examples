@@ -1,5 +1,5 @@
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta1
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: kubernetes-examples
@@ -8,5 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/AdminTurnedDevOps/kubernetes-examples
-
+  url: https://github.com/rupeshtr78/kubernetes-examples.git
